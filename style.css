@@ -1,202 +1,221 @@
+*{
+  letter-spacing: 0!important;
+}
+
 body{
-  background-color: black;
-  padding: auto auto auto auto;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400 px;
+   background-color: black;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 0px;
+}
+.netflix-section-one{
+    height: 450px;
+    width: 1fr;
+    background-image: url(/background\ image.jpg);
+    border-bottom: 9px solid rgb(107, 102, 102);
+    /* font-size: 30px; */
+    background-color: black;
+}
+
+ 
+.netflix-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    margin: 0px 56px;
 
 }
-header{
-  background-image: url( https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
-  opacity: 100px;
-  box-shadow: 100px;
-}
-#logo{
-   height: 87px;
-   margin-left: 2.5pc;
-   size: 100px;
- }
+
+ 
 
  .sign{
-   background-color: red;
-   color: white;
-   border-color: red;
-   float: top; 
-  
- }
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-color: red;
+}
 
- .hero{
-  text-align: center;
-  color: white;
-  font-weight: 100px;
+.main-container{
+    text-align: center;
+    position: relative;
+    top: 0%;
+    border-bottom: 12px
+    rgb(75, 72, 72);
+    color: white;
   box-shadow: inset;
- }
+  }
 
- .form{
-  text-align: center;
-  border-bottom: 4px solid rgb(119, 116, 116);
- }
+    .hero-1{
+      font-size: 3rem;
+    }
 
- input{
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  box-sizing: border-box;
-  
- }
- .btn{
-  background-color: red;
-  color: white;
-  border-color: red;
-  text-align: center;
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid red;
-  margin: 8px 0;
-  padding: 12px 20px;
-   
- }
+    .hero-2{
+      font-size: 2.125rem;
 
- #flex-container{
-  background-color: black;
-  color: white;
-  text-align: inherit;
-  display:flex;
-  justify-content: right;
-  text-align: left;
-  border-bottom: 4px solid rgb(119, 116, 116);
-}
+    }
 
-.text{
-  text-align: left;
-}
+    .hero-4{
+      font-size: 2.125rem;
+    } 
+
+    .hero-5{
+      font-size: 2.125rem;
+    }
+
+    .hero-6{
+      font-size: 2.125rem;
+    }
+
+    .hero-7{
+      font-size: 2.125rem;
+    }
+input{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;}
+
+    .hero-3{
+      font: 19.2px;
+    }
+
+    #netflix{
+      color: red;
+      outline-color: red;
+      width: 30%;
+      height: 45%;
+    }
+
+    .btn{
+        background-color: red;
+        color: white;
+        border-color: red;
+        text-align: center;
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid red;
+        margin: 8px 0;
+        padding: 12px 20px;}
+
+  .netflix-section-two{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: static;
+    padding-left: 200px;
+    border-bottom: 5px solid rgb(107, 102, 102);
+  }
+
+  .tv-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: inherit;
+  }
  
- #download{
-  border-bottom: 4px solid rgb(119, 116, 116);
-  color: white;
-  display: inline-flex;
-  justify-content: right;
-  font-size: large;
-  
+  /* .video-container{
+    position: relative;
+    top: 10px;
+    z-index: 2;
+  }  */
 
- }
+  .netflix-section-three{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(107, 102, 102);
+  }
 
- #watch{
-  border-bottom: 4px solid rgb(119, 116, 116);
-  color: white;
- }
+  .netflix-section-four{
+    color: white;
+    text-align: left;
+    border-bottom: 5px solid rgb(107, 102, 102);
+    box-sizing: border-box;
+  }
 
- #kids{
-  border-bottom: 4px solid rgb(119, 116, 116);
-  color: white;
-  display: inline-flex;
-  font-weight: 400px;
- }
+  .netflix-section-five{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(107, 102, 102);
+  }
 
- #questions{
-  border-bottom: 4px solid rgb(119, 116, 116);
-  color: white;
-  text-align: center;
- }
- 
-.faq1{
-  width: 45%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0px;
-  box-sizing: border-box;
-  background-color: rgb(63, 62, 60);
-  text-align: left;
-}
+  .netflix-section-six{
+    color: white;
+    border-bottom: 5px solid rgb(107, 102, 102);
+    text-align: center;
+  }
 
-.faq2{
-  width: 45%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0px;
-  box-sizing: border-box;
-  background-color: rgb(63, 62, 60);
-  text-align: left;
-}
+  .boxes{
+    text-align: center;
+  }
 
-.faq3{
-  width: 45%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0px;
-  box-sizing: border-box;
-  background-color: rgb(63, 62, 60);
-  text-align: left;
-}
+  .faq{
+    font-size: 1.725rem;
+    color: white;
+    text-align: center;
 
-.faq4{
-  width: 45%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0px;
-  box-sizing: border-box;
-  background-color: rgb(63, 62, 60);
-  text-align: left;
-}
+  }
+  .faq-list{
+    list-style-type: none;
+    margin-bottom:0px;
+    margin-left: 1.1em;
+    text-align: center;
+    
+  }
 
-.faq5{
-  width: 45%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0px;
-  box-sizing: border-box;
-  background-color: rgb(63, 62, 60);
-  text-align: left;
-}
+  .faq-question{
+    background: #303030;
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 1.8em 2.2em 0.8em 1.2em;
+    width: 50%;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 1.125rem;
+    text-align: center;
+     
+  }
 
-.faq6{
-  width: 45%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0px;
-  box-sizing: border-box;
-  background-color: rgb(63, 62, 60);
-  text-align: left;
-}
+  .faq-item{
+     display: block;
+    text-align: left;
+    font: 100px;
+  }
 
-#contact{
-  color: #ccc;
-}
+  .faq-list{
+    text-align: center;
+  }
 
-select{
-  width: 140px;
-  height: 35px;
-  padding: 5px 35px 5px 5px;
-  font-size: 18px;
-  border: 2px solid #ccc;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url("/uploads/media/default/0001/02/f7b4d3d2ba3fe1d8518e6e63d7740e1e73921abf.png") 96% / 15% no-repeat #eee;
-}
+  .f-a-q{
+    text-align: center;
+  }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  
-}
+  .site-footer{
+    color: white;
+  }
 
-.line3{
-  font-weight: 400;
-}
+  .footer-links{
+    list-style-type: none;
+    color: #737373;
+    margin-left: 0;
+    margin-bottom: 5px;
+    margin-left: 1.1em;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 30px;
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+    
+  }
 
  
